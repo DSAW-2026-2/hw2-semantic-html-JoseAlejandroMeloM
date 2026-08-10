@@ -60,4 +60,15 @@ Durante la validación inicial, el W3C mostró avisos informativos por el uso de
 
 No se agregaron estilos CSS ni código JavaScript porque la tarea evalúa exclusivamente la estructura HTML.
 
-Este registro se actualizará si las validaciones de HTMLHint, W3C o WAVE requieren correcciones adicionales.
+## Revisión con WAVE
+
+WAVE detectó en `index.html` una alerta de enlace redundante. El enlace hacia
+`about.html` aparecía tanto en la navegación principal como en el pie de página.
+Se conservó el enlace de la navegación y se retiró la repetición del pie de
+página, porque ambas opciones dirigían al mismo destino.
+
+La evaluación de `about.html` obtuvo 0 errores, 0 errores de contraste y 0
+alertas, con una puntuación AIM de 10 sobre 10. WAVE no señaló una segunda alerta
+real en las páginas del proyecto, por lo que no se introdujeron errores
+artificiales para producirla. La revisión manual sigue siendo necesaria, tal
+como indica la propia herramienta.
