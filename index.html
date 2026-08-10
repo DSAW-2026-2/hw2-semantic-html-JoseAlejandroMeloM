@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Disneco | Inicio</title>
+  </head>
+  <body>
+    <header>
+      <h1>Disneco</h1>
+      <p>Compara, conversa y sigue tus pedidos.</p>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="#problema">Problema</a></li>
+          <li><a href="#solucion">Solución</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="about.html">Equipo</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="problema">
+        <h2>El problema</h2>
+
+        <article>
+          <h3>El caso de la papelería Sol y Luna</h3>
+          <p>
+            Los administradores de pequeños comercios deben contactar a sus
+            distribuidores por separado, comparar manualmente sus ofertas y
+            preguntar varias veces por el estado de sus pedidos.
+          </p>
+          <p>
+            Esta necesidad fue identificada a partir de información recopilada
+            sobre Sol y Luna, una papelería de Chía. La información sobre
+            productos, precios, conversaciones y entregas puede quedar separada
+            entre diferentes medios, lo que consume tiempo y puede producir
+            confusiones.
+          </p>
+        </article>
+      </section>
+
+      <section id="solucion">
+        <h2>Nuestra solución</h2>
+        <p>
+          Disneco reunirá las actividades principales de la relación entre
+          comerciantes y distribuidores en un mismo sitio web.
+        </p>
+
+        <article>
+          <h3>Comparación de ofertas</h3>
+          <p>
+            El comerciante podrá comparar precios, presentaciones, cantidades
+            mínimas, disponibilidad, formas de pago y tiempos de entrega.
+          </p>
+        </article>
+
+        <article>
+          <h3>Comunicación contextual</h3>
+          <p>
+            Cada conversación podrá estar relacionada con un producto, una
+            oferta o un pedido para conservar el contexto de la negociación.
+          </p>
+        </article>
+
+        <article>
+          <h3>Seguimiento de pedidos</h3>
+          <p>
+            El comerciante y el distribuidor podrán consultar el avance de un
+            pedido desde su solicitud hasta la confirmación de la entrega.
+          </p>
+        </article>
+      </section>
+
+      <section id="usuarios">
+        <h2>Usuarios de Disneco</h2>
+
+        <article>
+          <h3>Administradores de pequeños negocios</h3>
+          <p>
+            Propietarios o administradores de papelerías y otros comercios de
+            Chía que compran productos a diferentes distribuidores.
+          </p>
+        </article>
+
+        <article>
+          <h3>Distribuidores</h3>
+          <p>
+            Proveedores que necesitan presentar sus ofertas, responder consultas
+            y comunicar el estado de preparación y entrega de los pedidos.
+          </p>
+        </article>
+      </section>
+
+      <section id="contacto">
+        <h2>Solicitar información</h2>
+        <p>
+          Completa el formulario si deseas conocer más sobre la propuesta de
+          Disneco.
+        </p>
+
+        <form action="index.html" method="get">
+          <fieldset>
+            <legend>Datos de contacto</legend>
+
+            <p>
+              <label for="nombre">Nombre completo:</label>
+              <input
+                type="text"
+                id="nombre"
+                name="nombre"
+                autocomplete="name"
+                required>
+            </p>
+
+            <p>
+              <label for="correo">Correo electrónico:</label>
+              <input
+                type="email"
+                id="correo"
+                name="correo"
+                autocomplete="email"
+                required>
+            </p>
+
+            <p>
+              <label for="telefono">Teléfono:</label>
+              <input
+                type="tel"
+                id="telefono"
+                name="telefono"
+                autocomplete="tel">
+            </p>
+
+            <p>
+              <label for="tipo-usuario">Tipo de usuario:</label>
+              <select id="tipo-usuario" name="tipo-usuario" required>
+                <option value="">Selecciona una opción</option>
+                <option value="comerciante">Comerciante</option>
+                <option value="distribuidor">Distribuidor</option>
+                <option value="otro">Otro</option>
+              </select>
+            </p>
+
+            <p>
+              <label for="mensaje">Mensaje:</label>
+              <textarea
+                id="mensaje"
+                name="mensaje"
+                rows="5"
+                cols="40"
+                required></textarea>
+            </p>
+
+            <button type="submit">Enviar solicitud</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Proyecto desarrollado para la clase de Desarrollo de Aplicaciones Web de
+        la Universidad de La Sabana.
+      </p>
+      <p><a href="about.html">Conoce al equipo de Disneco</a></p>
+    </footer>
+  </body>
+</html>
