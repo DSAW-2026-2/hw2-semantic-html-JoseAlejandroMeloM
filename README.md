@@ -1,4 +1,11 @@
-# HW02 — Semantic HTML
+# José Alejandro Melo — HW02
+
+- [Disneco en GitHub Pages](https://dsaw-2026-2.github.io/hw2-semantic-html-JoseAlejandroMeloM/)
+- [Evaluar Disneco en WAVE](https://wave.webaim.org/report?url=https%3A%2F%2Fdsaw-2026-2.github.io%2Fhw2-semantic-html-JoseAlejandroMeloM%2F)
+
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/AEBN5VKN)
+
+## HW02 — Semantic HTML
 
 **Week 2 · DSAW · Universidad de La Sabana**
 
@@ -23,6 +30,16 @@ Build your project's landing page with:
 ## Layer 2
 
 Run your page through [WAVE Web Accessibility Evaluator](https://wave.webaim.org/). Fix at least 2 of the flagged errors or alerts. Include a screenshot of the result in an `assets/` folder.
+
+### Evidencia de WAVE
+
+La evaluación inicial de `index.html` detectó una alerta de enlace redundante:
+
+![Evaluación inicial de index.html en WAVE](assets/wave-index-before.PNG)
+
+La evaluación de `about.html` obtuvo 0 errores, 0 errores de contraste y 0 alertas:
+
+![Evaluación de about.html en WAVE](assets/wave-about-after.png)
 
 ## AI Log
 
